@@ -29,7 +29,7 @@ namespace Projeto_Enari
                 var menulog = new menu();
                 menulog.Show();
             }
-            else
+            else if(textBox1.Text != log || textBox2.Text != sen)
             {
                 MessageBox.Show("Login/Senha inválidas!");
             }
